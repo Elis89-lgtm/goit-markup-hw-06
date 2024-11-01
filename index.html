@@ -19,47 +19,55 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  
-    <header class="page-header">
-      <div class="container header-container">
-        <nav class="header-nav">
-          <a class="logo header-logo" href="./index.html"
-            >Web<span class="logo-part">Studio</span></a
-          >
 
-          <ul class="nav-list">
-            <li class="nav-item">
-              <a class="nav-link current" href="./index.html">Studio</a>
-            </li>
-            <li class="nav-item"><a class="nav-link" href="">Portfolio</a></li>
-            <li class="nav-item"><a class="nav-link" href="">Contacts</a></li>
-          </ul>
-        </nav>
-        <address class="contacts">
-          <ul class="contacts-list">
-            <li class="contacts-item">
-              <a class="contacts-link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="contacts-item">
-              <a class="contacts-link" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
-      </div>
-    </header>
-    <main>
-      <section class="hero">
+  <header class="page-header">
+    <div class="container header-container">
+      <nav class="header-nav">
+        <a class="logo header-logo" href="./index.html"
+          >Web<span class="logo-part">Studio</span></a
+        >
+
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="nav-link current" href="./index.html">Studio</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="">Contacts</a></li>
+        </ul>
+      </nav>
+      <address class="contacts">
+        <ul class="contacts-list">
+          <li class="contacts-item">
+            <a class="contacts-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="contacts-item">
+            <a class="contacts-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+        </ul>
+      </address>
+    </div>
+  </header>
+  <div>
+
+      <section class="hero hidden">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button type="button" class="hero-btn">Order Service</button>
         </div>
       </section>
+<button class="burger-btn" type="button">
+  <svg class="burger-icon" width="24" height="24">
+    <use href="./images/icon-header.svg#icon-heroicons-solid">
 
-      <section class="features-avantages">
+    </use>
+  </svg>
+</button>
+</div>
+      <section class="features-avantages hidden">
         <div class="container">
           <h2 class="avantages">Avantages</h2>
           <ul class="features-list">
@@ -118,7 +126,7 @@
           </ul>
         </div>
       </section>
-      <section class="our-team-part">
+      <section class="our-team-part hidden">
         <div class="container">
           <h2 class="our-team">Our Team</h2>
           <ul class="features-team-list">
@@ -299,7 +307,7 @@
           </ul>
         </div>
       </section>
-      <section class="area-portfolio">
+      <section class="area-portfolio hidden">
         <div class="container">
           <h2 class="our-portfolio">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -424,7 +432,7 @@
       </section>
     </main>
 
-    <footer class="page-footer">
+    <footer class="page-footer hidden">
       <div class="container-footer container">
         <div class="logo-footer">
           <a class="logo footer-logo" href="./index.html"
@@ -498,7 +506,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop hidden">
     <div class="modal">
     <button type="button" class="modal-open">
       <svg class="modal-close-button" width="8" height="8">
@@ -612,4 +620,6 @@
           </div>
         </div>
   </body>
+
 </html>
+
