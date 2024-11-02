@@ -29,39 +29,15 @@ font-family: "Roboto", sans-serif;*/
 
 
 
-.hero {
-  
-  padding: 188px 0 188px;
-  height: 600px;
-  
- 
-}
 
 
 
 
 
-.hero-btn {
-  
-  margin-top: 48px;
- 
-}
 
 
 
-.hero-btn {
-  background-color: #4d5ae5;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-}
 
-.hero-btn {
-  cursor: pointer;
-}
-
-.hero-btn:hover,
-.hero-btn:focus {
-  background-color: #404bbf;
-}
 
 .avantages {
   position: absolute;
@@ -76,47 +52,13 @@ font-family: "Roboto", sans-serif;*/
   overflow: hidden;
 }
 
-.features-avantages {
-  width: 1128px;
-  margin: auto;
-  padding: 120px 0;
-}
 
-.features-list {
-  display: flex;
-  gap: 24px;
-}
-.icon-wrapper {
-  display: flex;
-  align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    border: 1px solid #8e8f99;
-    border-radius: 4px;
-    width: 264px;
-    height: 112px;
-    background-color: #f4f4fd;
-    margin-bottom: 8px;
-}
-.features-item {
-  width: calc((100% - 72px) / 4);
-}
-.features-name {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  margin-bottom: 8px;
-}
+
+
+
   
 
-.paragraph-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
+
 
 .container-our-team-part {
   width: 1128px;
