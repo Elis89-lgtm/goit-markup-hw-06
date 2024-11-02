@@ -9,11 +9,7 @@ font-family: "Roboto", sans-serif;*/
 
 
 
-.header-logo {
-  padding: 24px 0;
-  margin-right: 76px;
-  margin-left: 156px;
-}
+
 
 .footer-logo {
   color: #f4f4fd;
@@ -34,64 +30,24 @@ font-family: "Roboto", sans-serif;*/
 
 
 .hero {
-  background-color: #2e2f42;
+  
   padding: 188px 0 188px;
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/bg.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  max-width: 1440px;
   height: 600px;
-  width: 100%;
-  margin: 0 auto;
-  box-sizing: border-box;
-  background-size: cover;
+  
+ 
 }
 
-.container-hero {
-  display: block;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-}
 
-.hero-title {
-  max-width: 496px;
-  margin: 0 auto 48px auto;
-  justify-content: center;
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #fff;
-}
+
+
 
 .hero-btn {
-  display: block;
-  align-items: center;
-  justify-content: center;
-  min-width: 169px;
-  margin-left: auto;
-  margin-right: auto;
+  
   margin-top: 48px;
-  border-radius: 4px;
-  padding: 16px 32px;
-  height: 56px;
+ 
 }
 
-.hero-btn {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #fff;
-  border: none;
-}
+
 
 .hero-btn {
   background-color: #4d5ae5;
