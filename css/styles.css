@@ -265,7 +265,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/bg.jpg);
+    url(../images/Dark-bg-mob1x-min.jpg);
   background-repeat: no-repeat;
   background-position: center;
   max-width: 320px;
@@ -275,6 +275,18 @@ img {
   box-sizing: border-box;
   background-size: cover;
 }
+@media screen and (min-resolution: 2dppx),
+  (min-resolution: 192dpi),
+  (-webkit-min-device-pixel-ratio: 2) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bg-mob2x-min.jpg);
+  }
+}
+
 .container-hero {
   display: block;
   padding-left: 15px;
@@ -334,6 +346,23 @@ img {
     height: 436px;
     width: 100%;
     padding: 112px 0 112px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bg-tab1x-min.jpg);
+  }
+
+  @media screen and (min-resolution: 2dppx),
+    (min-resolution: 192dpi),
+    (-webkit-min-device-pixel-ratio: 2) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/Dark-bg-tab2x-min.jpg);
+    }
   }
 
   .hero-title {
@@ -350,18 +379,36 @@ img {
     width: 100%;
     padding: 188px 0 188px;
     height: 600px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office\ 1x-min.jpg);
+  }
+
+  @media screen and (min-resolution: 2dppx),
+    (min-resolution: 192dpi),
+    (-webkit-min-device-pixel-ratio: 2) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office\ 2x-min.jpg);
+    }
   }
 
   .hero-title {
     margin: 0 auto 48px auto;
   }
 }
+
 /* avantages */
 
 .features-avantages {
-  height: 696px;
-
-  padding: 96px 16px;
+  width: 288px;
+  margin: auto;
+  padding: 96px 0;
 }
 
 .avantages {
@@ -400,15 +447,15 @@ img {
   color: #434455;
   margin-bottom: 72px;
 }
+
 @media screen and (min-width: 768px) {
   .features-list {
     display: flex;
     align-items: center;
     justify-content: center;
-
-    gap: 24px;
   }
   .features-avantages {
+    width: 736px;
     max-width: 100%;
   }
   .features-name {
@@ -425,7 +472,7 @@ img {
   }
   .features-avantages {
     width: 1128px;
-    margin: auto;
+
     padding: 120px 0;
   }
 
@@ -446,6 +493,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+
     margin: 0 auto;
     border: 1px solid #8e8f99;
     border-radius: 4px;
@@ -454,4 +502,27 @@ img {
     background-color: #f4f4fd;
     margin-bottom: 8px;
   }
+}
+/*our team */
+.our-team,
+.our-portfolio {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.our-team-part {
+  background-color: #f4f4fd;
+  padding: 96px 0;
+}
+
+.features-item {
+  background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
