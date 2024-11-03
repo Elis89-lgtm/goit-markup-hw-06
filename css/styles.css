@@ -538,7 +538,7 @@ img {
 }
 .features-team-list {
   display: flex;
-  gap: 72px;
+  
 }
 .our-team-part {
   padding: 96px 0;
@@ -597,4 +597,32 @@ ul {
 .social-links .link:hover,
 .social-links .link:focus {
   background-color: #404bbf;
+}
+@media screen and (min-width: 768px) {
+  .container-our-team-part {
+    width: 552px;
+  }
+  .features-team-list {
+    display: flex;
+    gap: 24px;
+  }
+  .features-item {
+    width: calc((100% - 24px) / 2);
+  }
+  .features-team-list {
+    gap: 24px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container-our-team-part {
+    width: 1128px;
+  }
+  
+  .our-team-part {
+    padding: 120px 0;
+  }
+  .features-item {
+    width: calc((100% - 72px) / 4);
+  }
 }
