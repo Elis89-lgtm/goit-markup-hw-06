@@ -504,6 +504,7 @@ img {
   }
 }
 /*our team */
+
 .our-team,
 .our-portfolio {
   text-transform: capitalize;
@@ -521,12 +522,14 @@ img {
 }
 
 .features-item {
+ 
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .container-our-team-part {
+
   margin: auto;
 }
 img {
@@ -538,6 +541,8 @@ img {
 }
 .features-team-list {
   display: flex;
+  flex-wrap: wrap;
+  gap: 72px;
   
 }
 .our-team-part {
@@ -609,9 +614,7 @@ ul {
   .features-item {
     width: calc((100% - 24px) / 2);
   }
-  .features-team-list {
-    gap: 24px;
-  }
+  
 }
 
 @media screen and (min-width: 1158px) {
