@@ -426,7 +426,12 @@ img {
   display: none;
 }
 .features-list {
+  display: flex;
   flex-wrap: wrap;
+  gap: 72px;
+}
+.features-item {
+  /* flex-basis: calc((100% - 2 * 70px) / 3); */
   width: 100%;
 }
 
@@ -445,15 +450,13 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-bottom: 72px;
+
 }
 
 @media screen and (min-width: 768px) {
-  .features-list {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+  
+    
+   
   .features-avantages {
     width: 736px;
     max-width: 100%;
@@ -462,7 +465,7 @@ img {
     text-align: left;
   }
   .features-item {
-    width: calc((100% - 24px) / 2);
+    flex-basis: calc((100% - 24px) / 2);
   }
 }
 
@@ -477,12 +480,12 @@ img {
   }
 
   .features-list {
-    display: flex;
+    
     gap: 24px;
   }
 
   .features-item {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4)
   }
   .features-name {
     font-weight: 500;
