@@ -754,7 +754,11 @@ gap: 0px;
   padding-bottom: 96px;
 }
 .container-footer.container {
-  
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 72px;
   max-width: 320px;
   max-height: 664px;
 }
@@ -762,12 +766,12 @@ gap: 0px;
   
   width: 288px;
   height: 112px;
-  margin-bottom: 72px;
+  
 }
 .media {
   width: 208px;
   height: 80px;
-  margin-bottom: 72px;
+ 
   
 }
 .description-text {
@@ -901,8 +905,11 @@ gap: 0px;
 }
 @media screen and (min-width: 768px) {
   .container-footer.container {
-    
-    justify-content: flex-srart;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 72px;
     max-width: 584px;
     max-height: 456px;
   }
