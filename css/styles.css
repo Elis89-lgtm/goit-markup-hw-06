@@ -936,13 +936,14 @@ gap: 0px;
     display: flex;
     align-items: flex-start;
     align-items: baseline;
+    flex-direction: row;
     padding: 100px 100px;
     padding-left: 156px;
     max-width: 1440px;
     max-height: 312px;
   }
   .logo-footer {
-    margin-right: 120px; 
+    margin-right: auto; 
   }
   .page-footer {
     margin: 0 auto;
