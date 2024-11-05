@@ -427,9 +427,9 @@ img {
 }
 .features-list {
   display: flex;
- 
   flex-wrap: wrap;
-  gap: 72px;
+  column-gap: 24px; 
+  row-gap: 72px;
 }
 .features-item {
   
@@ -455,7 +455,11 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-    
+    .features-list {
+      display: flex;
+      Flex-direction:row;
+      flex-wrap: wrap;
+    }
   .features-avantages {
     width: 736px;
     max-width: 100%;
@@ -902,14 +906,11 @@ gap: 0px;
 @media screen and (min-width: 768px) {
   .container-footer.container {
     
-
-    max-width: 768px;
+    justify-content: flex-srart;
+    max-width: 584px;
     max-height: 456px;
   }
-  .logo-footer .media {
-   flex-wrap: nowrap;
   
-  }
   
   .description-text {
     max-width: 264px;
@@ -922,11 +923,7 @@ gap: 0px;
   .footer-form {
     gap: 24px;
   }
-  .footer-part {
-    margin-left: auto;
-    width: 453px;
-    height: 80px;
-  }
+  
   .footer-input {
     width: 264px;
     height: 40px;
