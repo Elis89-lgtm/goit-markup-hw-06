@@ -278,7 +278,8 @@ letter-spacing: 0.02em;
  text-align: left;
   flex-direction: column; 
   gap: 24px; 
-  margin-right: auto;
+  padding-left: 0;
+
 }
 
 .contacts-list-mob li:nth-child(1) .contacts-link {
@@ -288,10 +289,45 @@ letter-spacing: 0.02em;
 .contacts-list-mob li:nth-child(2) .contacts-link {
   color:  #434455; 
 }
-.soc-link {
+.soc-link-mob {
   margin-top: 48px;
   
 }
+.social-links-mob
+ .icon-mob {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+ 
+}
+.social-links-mob {
+  display: flex;
+  gap: 40px;
+  padding-left: 0;
+}
+
+.link-mob {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-links-mob .link-mob {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
+.social-links-mob
+ .icon-mob {
+  fill: #f4f4fd;
+}
+.social-links-mob .link-mob:hover,
+.social-links-mob .link-mob:focus {
+  background-color: #31d0aa;
+}
+
 
 
 @media screen and (min-width: 768px) {
@@ -725,6 +761,11 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
 }
+@media (max-width: 1157px) {
+  .cover-text {
+    display: none;
+  }
+}
 @media screen and (min-width: 768px) {
   .container-our-portfolio {
     width: 736px;
@@ -779,7 +820,7 @@ ul {
   margin-bottom: 16px;
   display: flex;
 align-items: center;
-justify-content: flex-start;
+justify-content: center;
 flex-direction: row;
 gap: 0px;
 
@@ -943,9 +984,13 @@ gap: 0px;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
+   
     gap: 72px 24px;
     max-width: 584px;
     max-height: 456px;
+  }
+  .footer-logo {
+    margin-left: 0;
   }
   
   .description-text {
@@ -978,6 +1023,7 @@ gap: 0px;
     
     display: flex;
     align-items: flex-start;
+    justify-content: flex-start;
     align-items: baseline;
     flex-direction: row;
     padding: 100px 100px;
@@ -1174,7 +1220,7 @@ gap: 0px;
     width: 10px;
     height: 8px;
   }
-  .modal-check-text {
+  .modal-check-text  {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -1194,13 +1240,13 @@ gap: 0px;
   
   
   
-  .modal-check-text span {
+  .modal-check-text span .new-class {
     display: inline-flex;
     width: 16px;
     height: 16px;
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
-   
+   flex-shrink: 0;
     align-items: center;
     justify-content: center;
     flex-direction: row;
